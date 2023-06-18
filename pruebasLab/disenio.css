@@ -1,0 +1,60 @@
+
+
+body {
+  background-color: #5e87af; 
+}
+
+.group {
+  background-color: #153a60; 
+  width: 370px; 
+  padding: 45px;
+  margin: 40px auto; 
+  border-radius: 10px; 
+  font-family: Arial; 
+  font-style: normal; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.group h2 {
+  color: #ffffff;
+  font-style: normal; 
+  font-family: Arial; 
+}
+
+
+.group label {
+  color: #ffffff;
+  font-weight: normal; 
+  margin-bottom: 10px; 
+  
+}
+
+
+.group input[type="password"],
+.group input[type="text"],
+.group input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px; 
+  padding: 5px;
+  border-radius: 5px; 
+}
+
+.group input[type="submit"][type="button"] {
+  background-color: #ffffff;
+  color: #345678;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+
+.group span em {
+  font-size: 12px;
+  font-style: normal;
+  color: #ffffff;
+}
